@@ -1,5 +1,37 @@
 Full release details: https://github.com/evcc-io/evcc/releases
 
+## [0.306.2] - 2026-05-05
+
+## Changelog
+### Breaking Changes 🚨
+* Fritz!: optional unit parameter for multi-unit smarthome devices (BC) (#29570)
+* MCP: make configurable via UI services card (BC) (#29535)
+* OpenWB 2.0: manually configure rfid (BC) (#29352)
+* sma-hybrid: separate max charge/discharge power (BC) (#29551)
+### New Features 💫
+* Add Anker SOLIX X1 (#29548)
+* Add Solinteg meter (#29543)
+* Custom charger: add optional finish timer (#29600)
+* HomeAssistant Charger: add heating, integrateddevice (#29632)
+* Nissan: add Micra
+* Stiebel WPM: re-add power (#29627)
+* epexprijzen-nl: add engie to provider choices (#29589)
+### Other Changes ☀️
+* Battery UI: clarify 100% buffersoc (#29658)
+* Bluelink: limit climater to defrost (#29622)
+* Charger: tag templates with meter capability (#29536)
+* EEBus meter: clear cached entity refs on disconnect (#29628)
+* Fritz!: refactor session caching (#29574)
+* Loadpoints: track metrics (#29143)
+* Octopus DE: stop retrying on permanent auth failure (#29631)
+* Optimizer: increase timeout (#29510)
+* Revert "PSA: update base url"
+### Bug Fixes 🐞
+* EVBox Elvi: fix template (#29652)
+* Solis Hybrid S: fix power decoding (#29547)
+
+
+
 ## [0.306.1] - 2026-05-02
 
 ## Changelog

@@ -2,6 +2,24 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
+* chore: upgrade yaml (#29052)
+* chore: fix format
+* Octopus DE: stop retrying on permanent auth failure (#29631)
+* Custom charger: add optional finish timer (#29600)
+* EEBus meter: clear cached entity refs on disconnect (#29628)
+* Stiebel WPM: re-add power (#29627)
+* chore: fix comment (#29624)
+* Bluelink: limit climater to defrost (#29622)
+* chore: fix mcp masking setup error (#29619)
+* docs: thor template, fix markdown syntax
+* chore(deps): bump alpine from 3.22 to 3.23 (#29593)
+* chore: pin dependencies (actions, docker, cli) (#29460)
+* epexprijzen-nl: add engie to provider choices (#29589)
+* Optimizer: increase timeout (#29510)
+* MCP: make configurable via UI services card (BC) (#29535)
+* Nissan: add Micra
+* Loadpoints: track metrics (#29143)
+* Fritz!: optional unit parameter for multi-unit smarthome devices (BC) (#29570)
 * Fritz!: refactor session caching (#29574)
 * Revert "PSA: update base url"
 * sma-hybrid: separate max charge/discharge power (BC) (#29551)

@@ -2,31 +2,46 @@ Full release details: https://github.com/evcc-io/evcc/releases
 
 ## [unreleased]
 
-* chore: upgrade yaml (#29052)
-* chore: fix format
-* Octopus DE: stop retrying on permanent auth failure (#29631)
-* Custom charger: add optional finish timer (#29600)
-* EEBus meter: clear cached entity refs on disconnect (#29628)
-* Stiebel WPM: re-add power (#29627)
-* chore: fix comment (#29624)
-* Bluelink: limit climater to defrost (#29622)
-* chore: fix mcp masking setup error (#29619)
-* docs: thor template, fix markdown syntax
-* chore(deps): bump alpine from 3.22 to 3.23 (#29593)
-* chore: pin dependencies (actions, docker, cli) (#29460)
-* epexprijzen-nl: add engie to provider choices (#29589)
-* Optimizer: increase timeout (#29510)
-* MCP: make configurable via UI services card (BC) (#29535)
-* Nissan: add Micra
-* Loadpoints: track metrics (#29143)
+* Wallbe: remove deprecated (BC) (#29647)
+* Sessions API: filter tz handling (#29676)
+* Loadpoint UI: improve heatpump status (#29667)
+* Energyflow: show all loadpoints (#29677)
+* infra: fix demo deploy
+* Fix comment-only yaml in device config validation (#29673)
+* Session energy: latch baseline late if meter not ready at start (#29656)
+* Battery UI: 100% buffersoc resets bufferstart (#29669)
+
+## [0.306.2] - 2026-05-05
+
+## Changelog
+### Breaking Changes 🚨
 * Fritz!: optional unit parameter for multi-unit smarthome devices (BC) (#29570)
-* Fritz!: refactor session caching (#29574)
-* Revert "PSA: update base url"
-* sma-hybrid: separate max charge/discharge power (BC) (#29551)
+* MCP: make configurable via UI services card (BC) (#29535)
 * OpenWB 2.0: manually configure rfid (BC) (#29352)
-* Add Solinteg meter (#29543)
-* Solis Hybrid S: fix power decoding (#29547)
+* sma-hybrid: separate max charge/discharge power (BC) (#29551)
+### New Features 💫
 * Add Anker SOLIX X1 (#29548)
+* Add Solinteg meter (#29543)
+* Custom charger: add optional finish timer (#29600)
+* HomeAssistant Charger: add heating, integrateddevice (#29632)
+* Nissan: add Micra
+* Stiebel WPM: re-add power (#29627)
+* epexprijzen-nl: add engie to provider choices (#29589)
+### Other Changes ☀️
+* Battery UI: clarify 100% buffersoc (#29658)
+* Bluelink: limit climater to defrost (#29622)
+* Charger: tag templates with meter capability (#29536)
+* EEBus meter: clear cached entity refs on disconnect (#29628)
+* Fritz!: refactor session caching (#29574)
+* Loadpoints: track metrics (#29143)
+* Octopus DE: stop retrying on permanent auth failure (#29631)
+* Optimizer: increase timeout (#29510)
+* Revert "PSA: update base url"
+### Bug Fixes 🐞
+* EVBox Elvi: fix template (#29652)
+* Solis Hybrid S: fix power decoding (#29547)
+
+
 
 ## [0.306.1] - 2026-05-02
 
